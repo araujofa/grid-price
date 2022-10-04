@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/18240979_v748-toon-103.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal {
+    width: 50%;
+    height: 80%;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-square {
+    padding: 35px;
+    background-color: white;
+    height: 52%;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-square h1 {
+    color: #1ecabc;
+    font-size: 1.6em;
+}
+
+.top-square h2 {
+    color: rgb(224, 224, 0);
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.top-square p {
+    margin-top: 20px;
+    font-size: 0.90em;
+    color: rgba(0, 0, 0, 0.539);
+}
+
+.bottom-squares {
+    display: flex;
+    height: 48%;
+}
+
+.bottom1, .bottom2 {
+    padding: 35px;
+    width: 60%;
+}
+
+.bottom1 {
+    background-color: #1ecabc;
+    border-radius: 0 0 0 15px;
+}
+
+.bottom1 h1 {
+    font-size: 1.3em;
+    color: white;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.price h2{
+    color: white;
+    font-size: 1.7em;
+}
+
+.bottom2 {
+    background-color: #4EE4D8;
+    border-radius: 0 0 15px 0;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price p {
+    margin-left: 15px;
+    color: #4de7da;
+}
